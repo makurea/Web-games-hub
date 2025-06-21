@@ -1,0 +1,30 @@
+body {
+  background: #222;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+}
+canvas {
+  background: #111;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #555;
+}
+h1 {
+  margin-bottom: 10px;
+}
+#score {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+#controls {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}

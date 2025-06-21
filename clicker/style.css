@@ -1,0 +1,36 @@
+body {
+  background: #222;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+  margin: 0;
+  padding: 40px 0;
+  height: 100vh;
+  justify-content: start;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#score {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#click-btn {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #3f51b5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#click-btn:hover {
+  background-color: #303f9f;
+}
